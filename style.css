@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(183, 233, 233, 0.5);
+    background-image: url("img/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 300px;
+    height: 480px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgb(126, 125, 125);
+    
+}
+
+.img-container{
+    margin: 0px;
+}
+
+.img-container img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.order-container{
+    background-color: white;
+    width: 100%;
+    height: 333px;
+    margin-top: -4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-container h1{
+    font-size: 20px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+}
+
+.order-container p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 22px;
+    color: rgb(126, 125, 125);
+}
+
+button{
+    width: 100%;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.audio-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    
+}
+
+.audio-box img{
+    width: 35px;
+}
+
+.plan-box{
+    display: flex;
+    width: 200px;
+    padding: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-box h4{
+    font-size: 12px;
+}
+
+.plan-box p{
+    color: rgb(126, 125, 125);
+}
+
+.plan-box a{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(53, 53, 211);
+}
+
+.plan-box a:hover{
+    color: rgb(76, 76, 211);
+}
+
+#proceed-btn{
+    background-color: rgb(53, 53, 211);
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    box-shadow: 1px 6px 18px 1px rgb(126, 125, 125);
+}
+
+#proceed-btn:hover{
+    background-color:rgb(76, 76, 211);
+}
+
+#cancel-btn{
+    font-size: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgb(126, 125, 125);;
+}
+
+#cancel-btn:hover{
+    color: rgb(61, 56, 56);;
+}
+
+@media screen and (max-widht: 640px) {
+    .main{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(183, 233, 233, 0.5);
+        background-image: url("img/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+    }   
+}
