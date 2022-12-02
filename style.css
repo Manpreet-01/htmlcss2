@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     background-color:rgba(183, 233, 233, 0.5);
-    background-image: url("img/pattern-background-desktop.svg");
+    background-image: url("bgd.svg");
     background-repeat: no-repeat;
 }
 
@@ -140,7 +140,7 @@ button{
         justify-content: center;
         align-items: center;
         background-color:rgba(183, 233, 233, 0.5);
-        background-image: url("img/pattern-background-mobile.svg");
+        background-image: url("bgm.svg");
         background-repeat: no-repeat;
     }   
 }
